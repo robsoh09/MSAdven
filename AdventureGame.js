@@ -17,11 +17,10 @@ const readline = require("readline-sync");
 
 //create playerName 
 let playerName = "";
+let gold = 100;
 console.log("Enter your name: ");
 playerName = readline.question();
-console.log(`Welcome, Adventurer ${playerName}`);
-let gold = 100;
-console.log(`You have ${gold} gold.`);
+console.log(`Welcome, Adventurer ${playerName} and ${gold} gold.`);
 
 //create inventory array
 let inventory = [];
